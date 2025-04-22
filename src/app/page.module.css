@@ -75,3 +75,18 @@
 .button:hover {
   background-color: #4338ca;
 }
+
+.contactInfo {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #eee;
+}
+
+.contactInfo a {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+}

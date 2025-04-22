@@ -5,6 +5,12 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <h1>Welcome to Sara's Portfolio</h1>
+
+      <div className={styles.contactInfo}>
+        <p>Email: <a href="mailto:sarajasminehamidi@gmail.com">sarajasminehamidi@gmail.com</a></p>
+        <p>Phone: <a href="tel:+9495251131">(949) 525-1131</a></p>
+      </div>
+
       <div className={styles.buttons}>
         <a
           href="/Software_Engineering_Res.pdf"
@@ -12,7 +18,6 @@ const Header = () => {
           className={styles.button}
         >
           Download Resume
-        
         
         </a>
         <a
