@@ -4,7 +4,7 @@ import styles from "../page.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <h1>Welcome to Sara's Portfolio</h1>
+      <h1>Welcome to Sara&apos;s Portfolio</h1>
 
       <div className={styles.contactInfo}>
         <p>Email: <a href="mailto:sarajasminehamidi@gmail.com">sarajasminehamidi@gmail.com</a></p>
